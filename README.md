@@ -1,6 +1,6 @@
 # upgradable-contract
 
-Openzeppelin upgrade contract example</br>
+Openzeppelin upgradable contract example</br>
 
 commands:
 

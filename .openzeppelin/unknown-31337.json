@@ -1,0 +1,70 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+    "txHash": "0xb6e4beb74f81b662465cfdd66c5011968d9e13a11f657cd1cc1d3d6b535f3bf6"
+  },
+  "proxies": [
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0xbe2594158b01f357d362883e2081bd419632d8e13e7eff9779a4b40114de1249",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0x06cb60c8cc27d53a8eff3d0e9f68ad6a5960d5778f8ba143fe2f62fc5e322c85",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+      "txHash": "0x02b8f07ada3bc279b4a3993109548cb3037bb84378c4f9e10f36de3cca12b53c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "18c0d1f3c54cd7cdbc65f2647adf871b987abb6b296359ab18c8972b9d7dff69": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0xedd8dad1cacb446eaee9590cd4571606a94c68c8bb280bc3081830316a7928b7",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "1241714cd92327761aba1976e8b5b9b2fd942e5f28b6c4ac1b54bbb7f846df53": {
+      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+      "txHash": "0x691a32ef047ac98a5563852d677ee4cdc2597931f29f106ab0fa9118e9b8d295",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts/BoxV2.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
